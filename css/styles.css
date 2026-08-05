@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Short+Stack&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+/******************************** Navigation *************************************/
+a:hover {
+    cursor: pointer;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 15px;
+    align-items: center;
+    text-decoration: none;
+    color:#f4effa;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-family: "Short Stack";
+    align-items: center;
+}
+
+.logo {
+    width: 8vw;
+    margin-left: 10px;
+}
+
+.pbutton {
+    background: #3c3382;
+    background: linear-gradient(90deg, rgba(60, 51, 130, 1) 35%, rgba(137, 127, 201, 1) 100%);
+    border-radius: 15px;
+    border: solid 2px black;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.pbutton:hover {
+    cursor: pointer;
+    background: #897FC9;
+    background: linear-gradient(90deg, rgba(137, 127, 201, 1) 35%, rgba(60, 51, 130, 1) 100%);
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+
+.pbutton:active {
+    background: #897FC9;
+    background: linear-gradient(90deg, rgba(137, 127, 201, 1) 35%, rgba(60, 51, 130, 1) 100%);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/**********************************************************************************/
+
+.descriptors {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-family: "Monda";
+}
+
+.descriptors li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 8px;
+    color:#caf0f8;
+    padding-left: 8px;
+}
+
+.mainphoto {
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+}
+
+.me {
+    border-radius: 50%;
+    max-height: 40vh;
+    border: solid 4px #caf0f8;
+}
+
+/********************************* FOOTER ***************************/
+
+.btmnav {
+    display: flex;
+    margin-top: 8%;
+    justify-content: space-around;
+    margin-bottom: 8%;
+}

@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Short+Stack&display=swap');
+
+/******************************** Navigation *************************************/
+a:hover {
+    cursor: pointer;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 15px;
+    align-items: center;
+    text-decoration: none;
+    color:#f4effa;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-bottom: 1%;
+    font-family: "Short Stack";
+    align-items: center;
+}
+
+.logo {
+    width: 8vw;
+    margin-left: 10px;
+}
+
+.pbutton {
+    background: #3c3382;
+    background: linear-gradient(90deg, rgba(60, 51, 130, 1) 35%, rgba(137, 127, 201, 1) 100%);
+    border-radius: 15px;
+    border: solid 2px black;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.pbutton:hover {
+    cursor: pointer;
+    background: #897FC9;
+    background: linear-gradient(90deg, rgba(137, 127, 201, 1) 35%, rgba(60, 51, 130, 1) 100%);
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+
+.pbutton:active {
+    background: #897FC9;
+    background: linear-gradient(90deg, rgba(137, 127, 201, 1) 35%, rgba(60, 51, 130, 1) 100%);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/**********************************************************************************/
+
+body {
+   background: #2A7B9B;
+   background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 82%, rgba(237, 221, 83, 1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.blog {
+    display: block;
+    margin-left: 35%;
+}
+
+.dashus {
+    display: block;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.pagepic {
+    max-width: 60vw;
+    border-radius: 15px;
+    border: solid 2px #f4effa
+}
+
+.pages {
+    margin: 3% 2%;
+    font-family: "Short Stack";
+}
+
+.pages a{
+    color: #f4effa;
+    text-decoration: none;
+}
+
+.pages a:hover {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.summary {
+    padding: 10px;
+    color: #3d0b37;
+    max-width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Short Stack";
+}
+.summary h1 {
+    text-align: center;
+}
+
+/********************************* FOOTER ***************************/
+
+.btmnav {
+    display: flex;
+    margin-top: 8%;
+    justify-content: space-around;
+    margin-bottom: 8%;
+}
