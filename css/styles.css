@@ -58,6 +58,11 @@ a:hover {
     transform: translateY(4px);
 }
 
+@media (max-width: 900px){
+    .logo {
+        max-width: 20vw;
+    }
+}
 /**********************************************************************************/
 
 .descriptors {
